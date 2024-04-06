@@ -1,0 +1,21 @@
+<!-- 9. Use frames such that page is divided into 3 frames 20%
+on left to show contents of pages, 60% in center to show body of
+page, remaining on right to show remarks. -->
+
+<!-- Theory:
+This HTML snippet, uses <frameset> element with the cols attribute is employed to partition the webpage horizontally, establishing a framed layout. Each section contains a separate <frame> element loading distinct HTML documents, facilitating the simultaneous presentation of multiple webpages. By enabling efficient content organization and navigation, this approach enhances the usability and accessibility of the webpage for users. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Framed Page</title>
+</head>
+<frameset cols="20%,60%,20%">
+<frame src="frame1.html" name="frame1">
+<frame src="frame2.html" name="frame2">
+<frame src="frame3.html" name="frame3">
+</frameset>
+</html>
+
+<!-- Conclusion: 
+In summary, this HTML code establishes a frameset divided into three columns, each containing a distinct HTML document loaded into frames. This configuration facilitates the concurrent presentation of multiple webpages, enhancing content accessibility and navigation within a single browser window. By providing users with a structured and cohesive browsing experience, it improves overall usability and efficiency. -->

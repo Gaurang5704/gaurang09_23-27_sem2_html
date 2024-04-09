@@ -1,0 +1,20 @@
+<!-- 8. Create a web page which divides the page in two equal
+frames and place the audio and video clips in frame-1 and frame-2
+respectively. -->
+
+<!-- Theory: 
+In this HTML snippet, the <frameset> element with the cols attribute is utilized to horizontally split the webpage, facilitating the integration of two frames (frame1 and frame2). Each frame loads separate HTML documents (audio.html and video.html), allowing for concurrent playback of audio and video content within the same webpage, thereby enriching the multimedia experience for users. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Audio and Video in Frames</title>
+</head>
+<frameset cols="50%, 50%">
+<frame src="audiofile.html" name="frame1">
+<frame src="videofile.html" name="frame2">
+</frameset>
+</html>
+    
+<!-- Conclusion:
+The code effectively configures a frameset with two frames, each loading separate HTML documents (audio.html and video.html) to showcase audio and video content simultaneously within a webpage. By facilitating efficient multimedia presentation, it offers an immersive and engaging user experience, catering to diverse multimedia consumption preferences. -->
